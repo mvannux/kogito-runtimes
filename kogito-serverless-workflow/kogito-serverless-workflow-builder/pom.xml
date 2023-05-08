@@ -15,10 +15,6 @@
 
   <dependencies>
     <dependency>
-      <groupId>io.smallrye</groupId>
-      <artifactId>smallrye-open-api-core</artifactId>
-    </dependency>
-    <dependency>
       <groupId>org.kie.kogito</groupId>
       <artifactId>jbpm-flow-builder</artifactId>
     </dependency>
@@ -27,20 +23,12 @@
       <artifactId>kogito-serverless-workflow-runtime</artifactId>
     </dependency>
     <dependency>
-      <groupId>io.swagger.parser.v3</groupId>
-      <artifactId>swagger-parser</artifactId>
-    </dependency>
-    <dependency>
       <groupId>com.github.erosb</groupId>
       <artifactId>everit-json-schema</artifactId>
     </dependency>
     <dependency>
       <groupId>org.kie.kogito</groupId>
       <artifactId>kogito-codegen-api</artifactId>
-    </dependency>
-    <dependency>
-      <groupId>org.kie.kogito</groupId>
-      <artifactId>kogito-rest-workitem</artifactId>
     </dependency>
      <dependency>
       <groupId>org.kie.kogito</groupId>
@@ -92,6 +80,7 @@
     <dependency>
       <groupId>org.kie.kogito</groupId>
       <artifactId>kogito-jsonpath-expression</artifactId>
+      <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>org.kie.kogito</groupId>
